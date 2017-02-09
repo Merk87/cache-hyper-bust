@@ -1,0 +1,45 @@
+{
+  "name": "gulp-cache-hyper-bust",
+  "version": "1.0.0",
+  "main": "lib/cachehyperbust.js",
+  "description": "Append a query string to your assets to hyper bust that cache! Now with a 100% more of options, like include images",
+  "homepage": "https://github.com/Merk87/gulp-cache-hyper-bust",
+  "bugs": "",
+  "author": {
+    "name": "Victor Moreno Alhambra",
+    "email": "vmoreno87@gmail.com",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merk87/gulp-cache-hyper-bust.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cachebust",
+    "cache",
+    "HTML",
+    "JavaScript",
+    "CSS",
+    "Query string"
+  ],
+  "dependencies": {
+    "cheerio": "^0.19.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "~1.10.0",
+    "jshint-stylish": "~1.0.0",
+    "load-grunt-tasks": "~1.0.0",
+    "time-grunt": "~1.0.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "bin": {
+    "cachehyperbust": "cli.js"
+  },
+  "preferGlobal": false
+}
