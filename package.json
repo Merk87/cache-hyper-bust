@@ -1,6 +1,6 @@
 {
   "name": "cache-hyper-bust",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "main": "lib/cachehyperbust.js",
   "description": "Append a query string to your assets to hyper bust that cache! Now with a 100% more of options, like include images",
   "homepage": "https://github.com/Merk87/cache-hyper-bust",
